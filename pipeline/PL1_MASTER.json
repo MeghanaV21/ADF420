@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "SET_VAR_TRIGGER",
+				"name": "SET_VAR_TRIGGEr",
 				"type": "SetVariable",
 				"dependsOn": [],
 				"policy": {
@@ -24,7 +24,7 @@
 				"type": "ExecutePipeline",
 				"dependsOn": [
 					{
-						"activity": "SET_VAR_TRIGGER",
+						"activity": "SET_VAR_TRIGGEr",
 						"dependencyConditions": [
 							"Succeeded"
 						]
