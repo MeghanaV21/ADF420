@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQL_TABLE",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-KOHSDFK",
+			"database": "VBDEVADEPROJECT",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "Meghana",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzNTc4NTlkYS04OWY3LTRhYzMtYWEzNS1lZTljYzE0NjNiODAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime2",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

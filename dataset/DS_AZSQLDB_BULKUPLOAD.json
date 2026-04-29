@@ -1,0 +1,13 @@
+{
+	"name": "DS_AZSQLDB_BULKUPLOAD",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AZSQL_BULKUPLOAD",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

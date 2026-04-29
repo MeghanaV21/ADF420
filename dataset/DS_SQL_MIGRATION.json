@@ -1,0 +1,17 @@
+{
+	"name": "DS_SQL_MIGRATION",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_MIGRATION",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "data_source_table"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
